@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Typescript",
+    "text": "Typescript adds static type checking to JavaScript. This is preferred over writing plain JS, as the type checker can eliminate many potential bugs at build time.",
+    "link": "https://www.typescriptlang.org/",
+    "lastUpdated": "2022-03-24T06:23:39Z"
+  },
+  {
+    "id": 2,
+    "title": "ESLint",
+    "text": "ESLint provides static analysis for typescript code. A comprehensive ruleset is included in this project which covers react and the associated testing libraries.",
+    "link": "https://eslint.org/",
+    "lastUpdated": "2022-03-24T06:23:39Z"
+  },
+  {
+    "id": 3,
+    "title": "Material UI",
+    "text": "Material UI provides a library of customisable react UI components which are optimized for accessibility and responsive design.",
+    "link": "https://material-ui.com/",
+    "lastUpdated": "2022-03-24T06:23:39Z"
+  },
+  {
+    "id": 4,
+    "title": "React Router",
+    "text": "React router is configured with 2 example routes. This sample uses code splitting to improve the performance and bundle size of the application.",
+    "link": "https://reactrouter.com/web/guides/quick-start",
+    "lastUpdated": "2022-03-24T06:23:39Z"
+  }
+]

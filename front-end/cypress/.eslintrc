@@ -1,0 +1,21 @@
+{
+  "env": {
+    "cypress/globals": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:cypress/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["prettier", "cypress", "unicorn"],
+  "rules": {
+    "unicorn/filename-case": "error"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  }
+}
