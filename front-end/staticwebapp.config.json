@@ -3,7 +3,7 @@
     "rewrite": "/index.html"
   },
   "globalHeaders": {
-    "Content-Security-Policy": "default-src 'self'; font-src 'self' https://fonts.gstatic.com; img-src 'self'; script-src 'self'; style-src 'unsafe-inline' https://fonts.googleapis.com; frame-src 'self'; connect-src 'self' https://*.keoghs.co.uk https://keo-uks-poc-* https://dc.services.visualstudio.com https://keoghs.oktapreview.com https://fonts.googleapis.com; upgrade-insecure-requests",
+    "Content-Security-Policy": "default-src 'self'; font-src 'self' https://fonts.gstatic.com; img-src 'self'; script-src 'self'; style-src 'unsafe-inline' https://fonts.googleapis.com; frame-src 'self'; connect-src 'self' https://*.keoghs.co.uk https://keo-uks-poc-frontdoordemo-users-fa.azurewebsites.net https://dc.services.visualstudio.com https://keoghs.oktapreview.com https://fonts.googleapis.com; upgrade-insecure-requests",
     "X-Frame-Options": "SAMEORIGIN",
     "X-Permitted-Cross-Domain-Policies": "none",
     "Referrer-Policy": "no-referrer",
