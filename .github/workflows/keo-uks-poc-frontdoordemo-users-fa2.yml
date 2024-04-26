@@ -5,10 +5,10 @@ on:
     - main
 env:
   AZURE_FUNCTIONAPP_NAME: keo-uks-poc-frontdoordemo-users-fa2
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: \back-end\FrontDoorDemo\FrontDoorDemo.Api\.
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: packages\.
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 6.0.x
-  WORKING_DIRECTORY: \back-end\FrontDoorDemo\FrontDoorDemo.Api
+  WORKING_DIRECTORY: \back-end\FrontDoorDemo
 jobs:
   build:
     runs-on: windows-latest
