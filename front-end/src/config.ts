@@ -25,7 +25,7 @@ const localAppInsightsConnection =
 const configDefaults: BasicConfig = {
   appInsightsConnectionString: localAppInsightsConnection,
   api: "https://keo-uks-poc-frontdoordemo-users-fa.azurewebsites.net/api",
-  uiIdentity: process.env.UiName ?? "local",
+  uiIdentity: process.env.UI_NAME ?? "local",
 };
 
 // Replace these values with the appropriate ones for your application
