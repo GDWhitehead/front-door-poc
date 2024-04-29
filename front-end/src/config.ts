@@ -24,7 +24,7 @@ const localAppInsightsConnection =
 
 const configDefaults: BasicConfig = {
   appInsightsConnectionString: localAppInsightsConnection,
-  api: "https://frontdoor-degag9afb8d4ggf0.a03.azurefd.net/api/users",
+  api: "https://frontdoor-degag9afb8d4ggf0.a03.azurefd.net/api",
   uiIdentity: process.env.UI_NAME ?? "local",
 };
 
